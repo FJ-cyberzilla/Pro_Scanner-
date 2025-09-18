@@ -1,0 +1,35 @@
+# Pro_Scanner- Git Ignore File
+
+# Database
+*.db
+*.sqlite
+scan_data.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+osint.log
+
+# Results - keep these if you want to track them
+# *_osint_results.json
+# *_osint_results.txt
+
+# Cache
+.cache/

@@ -1,0 +1,31 @@
+[MASTER]
+extension-pkg-allow-list=httpx,aiosqlite,bs4
+load-plugins=pylint.extensions.docparams
+
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    too-few-public-methods,
+    import-error,
+    broad-except,
+    too-many-arguments,
+    too-many-locals,
+    too-many-branches,
+    too-many-statements,
+    line-too-long,
+
+[FORMAT]
+max-line-length=120
+
+[BASIC]
+good-names=
+    i,j,k,ex,run,_,
+    db,fd,url,html,json
+
+[TYPECHECK]
+generated-members=requests.models.Response.json
+
+[DESIGN]
+max-args=8
+max-attributes=20
+max-public-methods=20
